@@ -1,0 +1,23 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+**/*production.*.tfvars*
+**/*production.tfvars*
+
+**/*uat.*.tfvars*
+**/*uat.tfvars*
+
+**/*staging.*.tfvars*
+**/*staging.tfvars*
+
+# Crash log files
+crash.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
